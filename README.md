@@ -14,3 +14,5 @@ Html = Giving the instructions to the computer.
 This thing is the syntax (some rules that are computer can understand that human writes.)
 So we have to follow some rules that can computer can understand.
 ```
+
+Lesson 1- Exercise - Html basics
