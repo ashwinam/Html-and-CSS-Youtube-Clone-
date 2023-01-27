@@ -16,3 +16,10 @@ So we have to follow some rules that can computer can understand.
 ```
 
 Lesson 1- Exercise - Html basics
+
+## Lesson 2
+
+### css basics
+
+Css - Cascading style sheets
+IN simple words css is just change the appearances of an html element.
