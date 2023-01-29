@@ -12,6 +12,7 @@ General Technique
  -->
 
 <style>
+    /* transition property helps to change properties values smoothly so, the first argument is the effect that you want to make smooth and second is time duration(best time for transition is 0.15s), using commas you can seperate the transition*/
     .subscribe-button {
         background-color: rgb(200, 0, 0);
         color: white;
@@ -22,7 +23,7 @@ General Technique
         margin-right: 8px;
         cursor: pointer;
         transition: opacity 0.15s;
-        /* transition property helps to change properties values smoothly so, the first argument is the effect that you want to make smooth and second is time duration(best time for transition is 0.15s)*/
+
     }
 
     /* Below is the syntax for hover effect :hover this also called pseudo-class, it means whatever the base css has the style just add on it more based on the actions */
@@ -47,6 +48,7 @@ General Technique
         border-width: 1px;
         border-radius: 2px;
         cursor: pointer;
+        transition: background-color 0.15s, color 0.15s, opacity 0.15s;
     }
 
     .join-button:hover {
@@ -69,7 +71,18 @@ General Technique
         font-size: 15px;
         margin-left: 8px;
         cursor: pointer;
+        transition: box-shadow 0.15s, opacity 0.15s;
     }
+
+    .tweet-button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .tweet-button:active {
+        opacity: 0.5;
+    }
+
+    /* The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. it takes 4 argument (1st is horizontal, 2nd is vertical, 3rd shadow blurness and 4th is color) */
 </style>
 
 <button class="subscribe-button">SUBSCRIBE</button>
