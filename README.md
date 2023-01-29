@@ -31,3 +31,13 @@ IN simple words css is just change the appearances of an html element.
 Hover?
 Hover is nothing but when we move our mouse near to the particular element it changes css or it added css
 Let see
+
+## Lesson 4
+
+### chrome dev tools and css box model
+
+_Chrome dev tools_
+Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. using f12 you can open the dev toools.
+
+_css box model_
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
