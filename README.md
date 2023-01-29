@@ -23,3 +23,11 @@ Lesson 1- Exercise - Html basics
 
 Css - Cascading style sheets
 IN simple words css is just change the appearances of an html element.
+
+## Lesson 3
+
+### css hovers, transitions and shadows
+
+Hover?
+Hover is nothing but when we move our mouse near to the particular element it changes css or it added css
+Let see

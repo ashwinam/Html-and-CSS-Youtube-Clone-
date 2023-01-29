@@ -1,0 +1,62 @@
+<!-- 
+    Css is look like a html it has style tag
+    General syntax is, select the html tag or the attributes like id or class. then specify the property and there value.    
+ -->
+
+
+<!-- 
+General Technique
+1. Create an Html element
+2. do css one by one until it looks closer
+
+ -->
+
+<style>
+    .subscribe-button {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        height: 35px;
+        width: 100px;
+        border: none;
+        border-radius: 2px;
+        margin-right: 8px;
+        cursor: pointer;
+    }
+
+    /* Below is the syntax for hover effect :hover this also called pseudo-class, it means whatever the base css has the style just add on it more based on the actions */
+    .subscribe-button:hover {
+        opacity: 0.8;
+
+    }
+
+    /* Another pseudo class is :active when you click on that particular element what extra css you want to add */
+
+    .join-button {
+        background-color: white;
+        color: rgb(17, 115, 244);
+        border-color: rgb(17, 115, 244);
+        border-style: solid;
+        height: 35px;
+        width: 60px;
+        border-width: 1px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    .tweet-button {
+        background-color: rgb(44, 150, 255);
+        color: white;
+        height: 35px;
+        width: 74px;
+        border: none;
+        border-radius: 17px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 8px;
+        cursor: pointer;
+    }
+</style>
+
+<button class="subscribe-button">SUBSCRIBE</button>
+<button class="join-button">JOIN</button>
+<button class="tweet-button">Tweet</button>
