@@ -4,6 +4,11 @@
 <style>
     a {
         color: rgb(0, 113, 133);
+        transition: color 0.15s;
+    }
+
+    a:hover {
+        color: rgb(210, 60, 0);
     }
 
     .heading {
@@ -22,13 +27,22 @@
     }
 
     .cart-btn {
-        background-color: rgb(255, 216, 20);
+        background-color: rgb(255, 219, 40);
         border: none;
         height: 32px;
         width: 115px;
         border-radius: 16px;
         cursor: pointer;
         margin-right: 10px;
+        transition: background-color 0.15s, opacity 0.15s;
+    }
+
+    .cart-btn:hover {
+        background-color: rgb(255, 213, 0);
+    }
+
+    .cart-btn:active {
+        opacity: 0.6;
     }
 
     .buy-btn {
@@ -39,6 +53,15 @@
         width: 115px;
         border-radius: 16px;
         cursor: pointer;
+        transition: background-color 0.15s, opacity 0.15s;
+    }
+
+    .buy-btn:hover {
+        background-color: rgb(255, 153, 0);
+    }
+
+    .buy-btn:active {
+        opacity: 0.6;
     }
 </style>
 
