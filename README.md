@@ -41,3 +41,7 @@ Chrome DevTools is a set of web developer tools built directly into the Google C
 
 _css box model_
 The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+
+## Lesson 5
+
+### Css Text styles
