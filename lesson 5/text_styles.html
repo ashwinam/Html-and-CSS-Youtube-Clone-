@@ -1,90 +1,35 @@
-<!-- Rule for text styling
-1. look for the font family i.e.,which fonts you are using 
-2. size of the fonts
-3. bold, italic
-4. alignments
--->
+<!DOCTYPE html>
+<html>
 
-<!-- General rule 
-1. create a element 
-2. apply css one-by-one
--->
+<head>
+    <title>Lesson 5 | Text</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="text_styles.css">
+</head>
 
-<!-- css specificity 
-class name priority > tag name
--->
+<body>
+    <p class="video-title">
+        Talking Tech and AI with Google CEO Sundar Pichai!
+    </p>
 
-<style>
-    p {
-        font-family: Arial;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
+    <p class="video-views">
+        3.4M views &#183; 6 months ago
+    </p>
 
-    .video-title {
-        font-size: 19px;
-        font-weight: bold;
-        width: 320px;
-        line-height: 28px;
-        margin-bottom: 5px;
-    }
+    <p class="video-author">
+        Marques Brownlee &#10003;
+    </p>
 
-    .video-views {
-        font-size: 15px;
-        color: rgb(96, 96, 96);
-        margin-bottom: 20px;
+    <p class="video-description">
+        Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to
+        Sundar!
+    </p>
 
-    }
+    <p class="shop-festive">
+        Shop early for the best selection of holiday favourites. <span class="shop-link">Shop now &#62;</span>
+    </p>
+</body>
 
-    .video-author {
-        font-size: 15px;
-        color: rgb(96, 96, 96);
-        margin-bottom: 20px;
-    }
-
-    .video-description {
-        font-size: 15px;
-        color: rgb(96, 96, 96);
-        width: 300px;
-        margin-bottom: 100px;
-    }
-
-    .shop-festive {
-        font-size: 14px;
-        background-color: #e34140;
-        color: white;
-        text-align: center;
-        padding-top: 19px;
-        padding-bottom: 19px;
-    }
-
-    .shop-link {
-        cursor: pointer;
-    }
-
-    .shop-link:hover {
-        text-decoration: underline;
-    }
-</style>
-
-
-<p class="video-title">
-    Talking Tech and AI with Google CEO Sundar Pichai!
-</p>
-
-<p class="video-views">
-    3.4M views &#183; 6 months ago
-</p>
-
-<p class="video-author">
-    Marques Brownlee &#10003;
-</p>
-
-<p class="video-description">
-    Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to
-    Sundar!
-</p>
-
-<p class="shop-festive">
-    Shop early for the best selection of holiday favourites. <span class="shop-link">Shop now &#62;</span>
-</p>
+</html>

@@ -1,90 +1,15 @@
-<!-- 
-    Css is look like a html it has style tag
-    General syntax is, select the html tag or the attributes like id or class. then specify the property and there value.    
- -->
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>Lesson 3 | Hover effects</title>
+    <link rel="stylesheet" href="hover_effects.css"> <!-- This called void element (it dont need a closing tag)-->
+</head>
 
-<!-- 
-General Technique
-1. Create an Html element
-2. do css one by one until it looks closer
+<body>
+    <button class="subscribe-button">SUBSCRIBE</button>
+    <button class="join-button">JOIN</button>
+    <button class="tweet-button">Tweet</button>
+</body>
 
- -->
-
-<style>
-    /* transition property helps to change properties values smoothly so, the first argument is the effect that you want to make smooth and second is time duration(best time for transition is 0.15s), using commas you can seperate the transition*/
-    .subscribe-button {
-        background-color: rgb(200, 0, 0);
-        color: white;
-        height: 35px;
-        width: 100px;
-        border: none;
-        border-radius: 2px;
-        margin-right: 8px;
-        cursor: pointer;
-        transition: opacity 0.15s;
-
-    }
-
-    /* Below is the syntax for hover effect :hover this also called pseudo-class, it means whatever the base css has the style just add on it more based on the actions */
-    .subscribe-button:hover {
-        opacity: 0.8;
-
-    }
-
-    /* Another pseudo class is :active when you click on that particular element what extra css you want to add */
-    .subscribe-button:active {
-        opacity: 0.5;
-        /* opacity is shows the fade in and fade out means visibilty of that particular element 0 means unvisible and 1 means visible */
-    }
-
-    .join-button {
-        background-color: white;
-        color: rgb(17, 115, 244);
-        border-color: rgb(17, 115, 244);
-        border-style: solid;
-        height: 35px;
-        width: 60px;
-        border-width: 1px;
-        border-radius: 2px;
-        cursor: pointer;
-        transition: background-color 0.15s, color 0.15s, opacity 0.15s;
-    }
-
-    .join-button:hover {
-        background-color: rgb(17, 115, 244);
-        color: white;
-    }
-
-    .join-button:active {
-        opacity: 0.7;
-    }
-
-    .tweet-button {
-        background-color: rgb(44, 150, 255);
-        color: white;
-        height: 35px;
-        width: 74px;
-        border: none;
-        border-radius: 17px;
-        font-weight: bold;
-        font-size: 15px;
-        margin-left: 8px;
-        cursor: pointer;
-        transition: box-shadow 0.15s, opacity 0.15s;
-    }
-
-    .tweet-button:hover {
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    }
-
-    .tweet-button:active {
-        opacity: 0.5;
-    }
-
-    /* The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. it takes 4 argument (1st is horizontal, 2nd is vertical, 3rd shadow blurness and 4th is color) */
-</style>
-
-<button class="subscribe-button">SUBSCRIBE</button>
-<button class="join-button">JOIN</button>
-<button class="tweet-button">Tweet</button>
+</html>
