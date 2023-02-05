@@ -55,3 +55,7 @@ The CSS box model is essentially a box that wraps around every HTML element. It 
 ## Lesson 7
 
 ### images and text boxes
+
+## Lesson 8
+
+### display property
