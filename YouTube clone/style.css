@@ -1,0 +1,29 @@
+.thumbnail-1 {
+    width: 300px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.search-bar {
+    display: block;
+    font-size: 20px;
+}
+
+.video-title {
+    display: block;
+}
+
+.video-author {
+    display: block;
+}
+
+.video-stats {
+    display: block;
+}
+
+.video-preview{
+    width: 300px;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+}
