@@ -68,4 +68,4 @@ The CSS box model is essentially a box that wraps around every HTML element. It 
 
 ### Nested layouts techniques
 
-Today busy 16/02/2023
+lesson 10 final exercise is remained
